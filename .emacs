@@ -172,7 +172,7 @@
 ;;(setq w3m-display-inline-image t)
 
 (autoload 'linum-mode "linum" "toggle line numbers on/off" t) 
-(global-set-key (kbd "C-<f5>") 'linum-mode)    
+(global-set-key (kbd "C-<f5>") 'linum-mode) 
 
 (add-to-list 'load-path "~/.emacs.d")
 (require 'dirtree)
@@ -186,3 +186,4 @@
 (require 'auto-highlight-symbol)
 (global-auto-highlight-symbol-mode t)
 
+(global-linum-mode t) 
